@@ -21,12 +21,11 @@ public class Sparrow extends Bird{
 
     public void sleep() {
 
-        System.out.println("Sparrow will sleep with his head under his wing.");
+        System.out.println("Sparrow sleeps with his head under his wing.");
     }
 
-
     public void speak() {
-        System.out.println("Sparrows chirp beautifully");
+        System.out.println("Sparrows chirp beautifully.");
     }
 }
 

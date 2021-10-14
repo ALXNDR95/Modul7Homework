@@ -6,9 +6,8 @@ public abstract class Fish extends Animal {
             this.name = name;
         }
 
-        public void sleep() {
-            System.out.println("It's always fun to watch the fish sleep.");
-        }
+        public abstract void sleep();
+
 
         abstract void swim();
     }
